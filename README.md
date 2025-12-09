@@ -27,6 +27,16 @@ Analysis components:
 ## Documentation
 
 # Team Roles & Responsibility Journal
-Update regurarly as work progres
+Spending Patterns & Transaction Behaviour _Valeriia
+
+During the analysis, we explored how customer behaviour metrics relate to churn risk. We visualised changes in spending, transaction counts, and utilisation patterns, comparing attrited versus existing customers across multiple distributions and scatter plots. This allowed us to identify clear behavioural differences and highlight which indicators are most predictive of attrition.
+
+Customers who show a decline in total spending are significantly more likely to churn. Attrited customers cluster around lower spending change ratios (0.4–0.7), while retained clients show stable or increasing spend (0.7–1.1). Decreasing spend is a strong early predictor of attrition
+
+Customers exhibiting a strong decline in transaction count are over-represented among attrited clients. Existing customers cluster around healthy transaction change levels. The distribution shows a clear behavioural separation:  lower transaction engagement strongly correlates with churn
+
+Attrited customers form a dense cluster in the low-usage zone. Existing customers show a strong positive correlation between amount and count,  behavioural engagement predicts attrition.
+The distribution of credit card utilization among attrited and existing customers is nearly identical. Сredit line usage is not a distinguishing factor between customers who churn and those who stay.
+
 # Tech Stack
 # Acknowledgements
