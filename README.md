@@ -99,14 +99,6 @@ The following measures were created in Power BI to support analysis and interact
 
 * Predicted Churn (Month 1)
 * Predicted Churn (Month 2)
-* Predicted Churn (Average Month 1–2) *(optional)*
-
-**Segmentation / Support Measures**
-
-* High Risk Customer Count *(based on predicted churn threshold)*
-* Low Risk Customer Count
-
----
 
 ### Dashboard Visuals
 
