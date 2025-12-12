@@ -22,19 +22,30 @@ The dataset for the project was sourced at Kaggle.  The dataset was kindly provi
 - Decided to use [Trello](https://trello.com/b/BSaLMmC0/hackathon-credit-card-churn) for project planning and management - picked the Kanban workflow
 - Assigned team responsibilities and deliverables
 
-## Data Cleaning/ETL Pipeline
+## Data Cleaning - ETL Pipeline
 
-Steps executed:
+The dataset was cleaned by passing it through an ETL (Extract Transform and Load) pipeline.  The dataset was first extracted from the Kaggle source.  It was then loaded onto Jupyter Notebook where a number of data exploratory processes were conducted using Pandas functions to understand the shape, contents, unique values, missing values, data types and distributions of the data.  YData-Profiling was also used for further insight into the nature of the dataset.  A HTML profile report was generated and can be found at the following [link](notebooks/credit_card_churn_analytics_profile_report.html).
 
-- 
+Luckly, the dataset did not contain missing data.  However, there were a number of unknown values.  After much deliberations, it was decided to keep them as unique features as any attempt to replace by using any of the known transformation approaches could distort the data.  Furthermore, it is not quick clear why they were reported as unknown.  Were the customers unwilling to reveal their details or were they just not colllected.  Some members of the created new features through feature engineering for predictive modelling and segment analysis.  The cleaned dataset was then provided to the team members for loading to conduct their assigned tasks.
 
 ## Exploratory Data Analysis (EDA)
 
 Analysis components:
+After each team member was provided with a clean dataset, they conducted EDA on their respective Jupyter Notebooks to further understand the dataset and decide on how to approach their given tasks.  Some team members use the dataset as is, some use unknown as unique category and some used feature engineering to create new features for predictive and segment analysis.
 
-- 
+## Data Visualizations
 
-## Modeling & Predictive Prototype
+The credit card churn project was divided into seven tasks, with each of the first five tasks assigned to different team members.  Members were allowed to work on either or all of the last two tasks if time permit.  Each task has a number of key questions asked and they were to be answered through data visualizations.  The seven tasks of the project are as follows:
+
+1. Attrition & Customer Characteristics
+2. Relationship Depth & Engagement
+3. Credit Exposure & Financial Behaviour
+4. Spending Patterns & Transaction Behaviour
+5. Early Warning Indicators
+6. Model-Based / Predictive Insights
+7. Customer Segmentation
+
+A number of visualizations were created by each team members to help them answer the questions that were assigned to them.  Many of these visualization provided useful insights on the datasets and led to many of the findings and recommendations that were offered by the team members.
 
 ## Dashboard Development
 
@@ -209,7 +220,10 @@ The dashboard functions as an early-warning and risk-scoring tool, enabling user
 * Design proactive customer retention strategies
 
 ---
-# Tech Stack
+# Conclusion
+
+The Hackathon Team Project set out to analyse Credit Card Customers dataset in order to understand which segments of the customers are at risk of attrition using data visualizations and to conduct predictive modelling and segment analysis to predict which segments of the customer are at high risks of churn in the future.  The project set out by deviding the project into seven tasks and assigning one to each team member. The team then deveoped heuristics and asked a number of key questions for each of the seven tasks.  These key question were answered through data visualizations, predictive analytics, segment analysis and dashboardings.  The key insights, findings and recommendations made by each team member has been presented in this README document.
+
 # Acknowledgements
 
 The team thanks Kaggle and [Sakshi Goyal](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers) for providing the dataset that was used for this Hackathon and John Anih of Code Institute for setting and judging the Hackathon team project.
