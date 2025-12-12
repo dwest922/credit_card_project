@@ -1,33 +1,81 @@
 # Credit Card Churn Project
+
 A Group Project – Hackathon Data Challenge
 This work was completed collaboratively by a multidisciplinary team, using Trello for planning and GitHub for shared repository management.
+
 # Project Overview
+
 This group project aims to analyse credit card customer data to understand churn behaviour and predict churn likelihood. The process includes ETL data preparation, exploratory analytics, predictive modelling, dashboard development and prototype functionality for churn scoring and retention support.
+
 # The Dataset
-The dataset for the project was sourced at Kaggle.  The dataset was kindly provided by Sakshi Goyal and can be accessed at the following link [Credit Card Customers](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
+
+The dataset for the project was sourced at Kaggle.  The dataset was kindly provided by Sakshi Goyal and can be accessed at the following link: [Credit Card Customers](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
 
 # Project Structure
+
 ## Project Planning
+
 - Reviewed dataset variables, business problem and technical constraints
 - Discussed compatible platforms (Power BI / Tableau / Streamlit / Python / Python Notebooks)
 - Created GitHub repository for version control and online collaboration on the project
 - Generated README skeleton and documentation guidelines
 - Decided to use [Trello](https://trello.com/b/BSaLMmC0/hackathon-credit-card-churn) for project planning and management - picked the Kanban workflow
 - Assigned team responsibilities and deliverables
+
 ## Data Cleaning/ETL Pipeline
+
 Steps executed:
+
 - 
+
 ## Exploratory Data Analysis (EDA)
+
 Analysis components:
+
 - 
+
 ## Modeling & Predictive Prototype
 
 ## Dashboard Development
+
 A number of dashboards were developed by team members based on assigned resposibilities and individual preferred dashboard development platform.  Dashboards were developed using Power BI (Duncan) and Streamlit (Mohammed).  Mohammed has included his dashboard in the apps folder.
+
 ## Documentation
+
 The project was properly documment with a comprehensive README.md file and supporting documents located in a number of folders.  Also included was the presentation powerpoint file.
+
 # Team Roles and Responsibility Journal
-Spending Patterns & Transaction Behaviour _Valeriia
+
+## Attrition and Customer Characteristics - Mohammed
+
+The goal was to determine how attrition or churn risk relate to customer characteristics.  To achieve this goal, we asked a number of questions:
+
+- How does demographic category relate to attrition risk?
+- Does age or number of dependent influence attrition risk?
+- What role does the customers' months on the book play on attrition risk?
+
+To answer these questions a number of visualizations were created using Python, Pandas and related libraries.  A cohort analysis was also conducted on the customers' months on the book to assess the attrition risk.  As cohort analysis uses time scale to analyse risks of attrition or retension, the months on book was converted into time by using bins or buckets.  Buckets of 1, 3, 6 or 12 months could be used depending on how grainer you want the analysis to be.  A bucket of 6 months was used in this analysis and was used to create a heatmap of months on the book against time.
+
+A number of visualizations were created.  These include bar charts, histograms, boxplots, stacked bars and heatmaps.  The results of the visualizations can be found in the Jupyter Notebook, Streamlit Dashboard app and Power Point presentation of the Hackathon team project.
+
+### The key findings of the data analysis are:
+
+- Gender, graduate, high school, married, single, low income and blue card holders are the major drivers of churn.
+- While gender and marital status show high attrition rates, there is not much difference between male and female or between married and single.  This implies other factors play more important roles in influencing the churn rates than gender or marital status.
+- Graduate and High School leavers show the highest levels of churn rates within the education level sub-group.
+- Low income earners and blue card holders show high attrition risks.
+- Attrition rates are high among customers in the 38 to 52 years old range.  But the bulk of the customers, both existing and attrited, fall within the 40 and 52 years age range. This suggests age may not be a major driver of churn.  Other factors play more important roles.
+- Families with 1 to 4 dependents show high attrition risks, with families with 2 or 3 dependents being the highest.
+- Attrition rate is highest for customers with 36 months on book.  A cohort analysis of customers’ months on book versus attrition rate shows a fairly stable attrition rates from 15 to 52 months on book.  A cohort retention heatmap created by turning months on book into time using buckets of 6 months shows the retention rate highest at 12 months on book and attrition rate highest at 36 months on book.
+
+### Recomendations
+
+- A better understanding of the sub-demographic groups identified as high churn risk is needed to develop an effective strategy to reduce the churn rate.
+- Further research is required to understand their particular needs and a strategy developed to address them in order to reduce their risks of attrition.
+- Further study is suggested to understand why 36 months on book has the highest risk so that intervention can be triggered before customers reach their 36 months on book.
+- A predictive model should be developed to indentify which demographic group and months on book have high attrition risks in the future.  This will enable to development of an effective strategy to mitigate the risks before they occur.
+
+## Spending Patterns & Transaction Behaviour _Valeriia
 
 During the analysis, we explored how customer behaviour metrics relate to churn risk. We visualised changes in spending, transaction counts, and utilisation patterns, comparing attrited versus existing customers across multiple distributions and scatter plots. This allowed us to identify clear behavioural differences and highlight which indicators are most predictive of attrition.
 
@@ -163,3 +211,5 @@ The dashboard functions as an early-warning and risk-scoring tool, enabling user
 ---
 # Tech Stack
 # Acknowledgements
+
+The team thanks Kaggle and [Sakshi Goyal](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers) for providing the dataset that was used for this Hackathon and John Anih of Code Institute for setting and judging the Hackathon team project.
