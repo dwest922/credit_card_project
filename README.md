@@ -1,18 +1,18 @@
-# Credit_card_project
+# Credit Card Churn Project
 A Group Project – Hackathon Data Challenge
 This work was completed collaboratively by a multidisciplinary team, using Trello for planning and GitHub for shared repository management.
-# Project overview
+# Project Overview
 This group project aims to analyse credit card customer data to understand churn behaviour and predict churn likelihood. The process includes ETL data preparation, exploratory analytics, predictive modelling, dashboard development and prototype functionality for churn scoring and retention support.
-# The dataset used
-https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers
-# Interactive dashboard
-https://trello.com/b/BSaLMmC0/hackathon-credit-card-churn
-# Project structure
-## Project planning
+# The Dataset
+The dataset for the project was sourced at Kaggle.  The dataset was kindly provided by Sakshi Goyal and can be accessed at the following link [Credit Card Customers](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
+
+# Project Structure
+## Project Planning
 - Reviewed dataset variables, business problem and technical constraints
-- Discussed compatible platforms (Power BI / Tableau / Python notebooks)
-- Created GitHub repository
+- Discussed compatible platforms (Power BI / Tableau / Streamlit / Python / Python Notebooks)
+- Created GitHub repository for version control and online collaboration on the project
 - Generated README skeleton and documentation guidelines
+- Decided to use [Trello](https://trello.com/b/BSaLMmC0/hackathon-credit-card-churn) for project planning and management - picked the Kanban workflow
 - Assigned team responsibilities and deliverables
 ## Data Cleaning/ETL Pipeline
 Steps executed:
@@ -23,10 +23,10 @@ Analysis components:
 ## Modeling & Predictive Prototype
 
 ## Dashboard Development
-
+A number of dashboards were developed by team members based on assigned resposibilities and individual preferred dashboard development platform.  Dashboards were developed using Power BI (Duncan) and Streamlit (Mohammed).  Mohammed has included his dashboard in the apps folder.
 ## Documentation
-
-# Team Roles & Responsibility Journal
+The project was properly documment with a comprehensive README.md file and supporting documents located in a number of folders.  Also included was the presentation powerpoint file.
+# Team Roles and Responsibility Journal
 Spending Patterns & Transaction Behaviour _Valeriia
 
 During the analysis, we explored how customer behaviour metrics relate to churn risk. We visualised changes in spending, transaction counts, and utilisation patterns, comparing attrited versus existing customers across multiple distributions and scatter plots. This allowed us to identify clear behavioural differences and highlight which indicators are most predictive of attrition.
