@@ -38,7 +38,7 @@ Analysis components:
 
 ## Dashboard Development
 
-A number of dashboards were developed by team members based on assigned resposibilities and individual preferred dashboard development platform.  Dashboards were developed using Power BI (Duncan) and Streamlit (Mohammed).  Mohammed has included his dashboard in the apps folder.
+A number of dashboards were developed by team members based on assigned resposibilities and individual preferred dashboard development platform.  Dashboards were developed using Power BI (Duncan, Helen) and Streamlit (Mohammed).  Mohammed has included his dashboard in the apps folder.
 
 ## Documentation
 
@@ -209,6 +209,98 @@ The dashboard functions as an early-warning and risk-scoring tool, enabling user
 * Design proactive customer retention strategies
 
 ---
+
+## Helen Bliss – Relationship Depth & Engagement Analysis**
+
+### **Focus Area**
+Analysed customer **relationship depth** and **engagement behaviour** to understand key drivers of churn and identify at-risk segments within the existing customer base.
+
+### **Power BI Dashboard**
+[View the interactive dashboard](https://app.powerbi.com/links/K7R6jWh5PG?ctid=c233c072-135b-431d-af59-35e05babf941&pbi_source=linkShare)
+
+---
+
+## **Key Contributions**
+
+### **1. Behavioural Feature Engineering**
+Created new analytical fields to model customer engagement and stability:
+
+- **Customer Lifestage** (New, Growing, Settled)  
+- **Engagement Depth** (Low / Medium / High)  
+- **Utilisation Tier** (No / Low / Moderate / High)  
+- **Disengagement Indicator**  
+- **Composite Risk Score**  
+- **Z-Score Standardised Risk Measure**
+
+These features enabled richer segmentation and more interpretable churn insights.
+---
+
+### **2. Power BI Data Modelling**
+- Built dimensional lookup tables for engagement, utilisation, and lifecycle stage  
+- Applied controlled sort orders for clear visual interpretation   
+- Ensured stable one-to-many relationships for clean filtering and interactions  
+---
+
+### **3. Visual Analytics Development**
+Delivered several core visuals for the dashboard:
+
+- **Product Depth vs Retention**  
+- **Contact Behaviour vs Inactivity**  
+- **Inactivity Threshold Detection**  
+- **Relationship Tier with Disengagement Trend**  
+- **Engagement Depth vs Churn**  
+- **Utilisation Tier vs Churn**  
+- **Standardised Composite Risk Heatmap**
+
+Added interactive slicers, tooltip pages, and multi-layer filtering to support deeper exploration.
+
+—
+
+### **4. Key Insights**
+- Retention improves sharply once customers hold **3+ products**  
+- Contact tends to be **reactive**, occurring after disengagement begins  
+- Churn escalates after **3 months of inactivity**  
+- Low engagement is the most consistent structural predictor of churn  
+- The Z-score heatmap reveals two high-risk “tails”:  
+  - **Low depth + high utilisation**  
+  - **Low depth + no utilisation**
+—
+
+## **5. Conclusions**
+
+Customer churn is driven by **relationship depth and behavioural disengagement** rather than contact frequency alone. Retention improves sharply once customers hold **three or more products**, while churn risk accelerates after **three months of inactivity**, particularly when combined with utilisation extremes or reactive contact. Behavioural composite risk measures effectively identify **at-risk existing customers**, enabling **proactive, prevention-led retention strategies**.
+—
+
+### **6. Recommended Actions**
+- Promote early relationship deepening (encourage movement from 1–2 to 3+ products)  
+- Trigger engagement interventions at **2 months inactive**  
+- Shift from reactive to proactive contact strategies  
+- Prioritise outreach to **low-engagement, high- or zero-utilisation** segments  
+
+—
+
+## **7. Future Development**
+
+- **Predictive Modelling:**  
+  Extend the project by exporting the cleaned dataset and building a churn prediction model using a train/test split in Python (Logistic Regression, Random Forest, Gradient Boosting). The resulting churn probability could be fed back into Power BI as a new risk metric.
+
+- **Next Best Product:**  
+  Use the strong link between product depth and retention to build a recommendation model for moving customers from 1–2 products toward 3+ products.
+
+- **Behaviour Monitoring:**  
+  Track changes in inactivity, utilisation, and spending momentum to detect early behaviour drift.
+
+- **Operationalisation:**  
+  Integrate model outputs into CRM systems to trigger proactive retention actions for high-risk customers.
+
+
+## **Summary**
+This work provided the team with a behavioural and relationship-driven view of churn, enabling early detection of at-risk customers and strengthening the strategic recommendations in our final Power BI dashboard.
+
+## ** END OF HELEN'S SECTION**
+
+
+
 # Tech Stack
 # Acknowledgements
 
