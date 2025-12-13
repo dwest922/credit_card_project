@@ -221,10 +221,6 @@ The dashboard functions as an early-warning and risk-scoring tool, enabling user
 
 ---
 
-# Conclusion
-
-The Hackathon Team Project set out to analyse Credit Card Customers dataset in order to understand which segments of the customers are at risk of attrition using data visualizations and to conduct predictive modelling and segment analysis to predict which segments of the customer are at high risks of churn in the future.  The project set out by deviding the project into seven tasks and assigning one to each team member. The team then deveoped heuristics and asked a number of key questions for each of the seven tasks.  These key question were answered through data visualizations, predictive analytics, segment analysis and dashboardings.  The key insights, findings and recommendations made by each team member has been presented in this README document.
-
 ## Helen Bliss – Relationship Depth & Engagement Analysis**
 
 ### **Focus Area**
@@ -314,9 +310,9 @@ This work provided the team with a behavioural and relationship-driven view of c
 
 ## ** END OF HELEN'S SECTION**
 
+# Conclusion
 
-
-# Tech Stack
+The Hackathon Team Project set out to analyse Credit Card Customers dataset in order to understand which segments of the customers are at risk of attrition using data visualizations and to conduct predictive modelling and segment analysis to predict which segments of the customer are at high risks of churn in the future.  The project set out by deviding the project into seven tasks and assigning one to each team member. The team then deveoped heuristics and asked a number of key questions for each of the seven tasks.  These key question were answered through data visualizations, predictive analytics, segment analysis and dashboardings.  The key insights, findings and recommendations made by each team member has been presented in this README document.
 
 # Acknowledgements
 
